@@ -1,0 +1,93 @@
+\documentclass[11pt]{article}
+
+% \usepackage[sort]{natbib}
+\usepackage{fancyhdr}
+
+% you may include other packages here (next line)
+% \usepackage{enumitem}
+\usepackage[ansinew]{inputenc}
+%\usepackage[spanish]{babel}
+\usepackage{fancyhdr}
+\usepackage{epsfig}
+\usepackage{epic}
+\usepackage{eepic}
+\usepackage{amsmath}
+% \usepackage{threeparttable}
+%\usepackage{amscd}
+\usepackage{here}
+\usepackage{graphicx}
+\usepackage{lscape}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{calc}
+% \usepackage{mwe}
+\usepackage{color}
+\usepackage{colortbl}
+\usepackage{rotating}
+
+\usepackage{caption}
+\usepackage{subcaption}
+
+% \usepackage{subfigure}
+\usepackage{hyperref}
+
+
+\hypersetup{
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=red,          % color of internal links (change box color with linkbordercolor)
+    citecolor=red,        % color of links to bibliography
+    filecolor=magenta,      % color of file links
+    urlcolor=blue           % color of external links
+}
+
+%----- you must not change this -----------------
+
+\oddsidemargin -1cm
+\evensidemargin -1cm
+\topmargin -1.0cm
+\textheight 22.0cm
+\textwidth 7.3in
+\parindent=0pt
+%\parskip 1ex
+\renewcommand{\baselinestretch}{1.1}
+\pagestyle{fancy}
+%----------------------------------------------------
+
+
+
+% enter your details here----------------------------------
+
+\lhead{\normalsize \textrm{-}}
+\chead{}
+\rhead{\normalsize Cristian Ocampo}
+\lfoot{\normalsize \textrm{}}
+\cfoot{}
+\rfoot{Meero.}
+\setlength{\fboxrule}{4pt}\setlength{\fboxsep}{2ex}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\title{
+\vspace{-2cm}
+Atelier Git - Meero\hrule
+\vspace{-1cm}}   
+\date{}
+
+\begin{document}
+\maketitle
+
+%----------------your title below -----------------------------
+Git: Status $\rightarrow$ add $\rightarrow$ Commit $\rightarrow$ Push
+
+\section{Questions}
+\begin{enumerate}
+  \item In order to upload my code on certain repository, do I need to have a complete local copy of it in my computer?
+  \item If I created a branch where I added new files, after merging they will appear on master?
+  \item There is a master for every repository?
+  \item How to kill a branch?
+\end{enumerate}
+
+
+\end{document}
+              
